@@ -150,7 +150,7 @@ export default function StudentHome({ navigation }) {
         initialNumToRender={1}
       />
       <View style={styles.floatingHeader}>
-        <Text style={styles.brand}>LearnLoop</Text>
+        <Text style={styles.brand}>QuickLearn</Text>
         <TouchableOpacity onPress={logout} style={styles.logoutBtn}><Text style={styles.logoutText}>Logout</Text></TouchableOpacity>
       </View>
       <CommentModal visible={modalVisible} onClose={() => setModalVisible(false)} comments={activeComments} onPost={postComment} currentUser={user} />
